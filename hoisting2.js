@@ -1,0 +1,29 @@
+// hoisting.js 21줄부 평가하기
+
+
+
+let i;
+var x;
+var x;
+console.log(i); // error
+i = 1;
+console.log('x=', x);
+x = 1;
+console.log(ff, f);
+f(); // error
+{
+  f();
+  x = 2;
+  function f() {
+    console.log('f>', x, xx);
+  }
+  const b = 1;
+}
+function ff() {
+  console.log('ff>', y, yy);
+}
+if (x >= 2) {
+  var y = 5;
+  let yy = 55;
+}
+var xx = 100;

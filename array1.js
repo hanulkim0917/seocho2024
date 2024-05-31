@@ -99,3 +99,6 @@ const arr2 = [3,4];
 const arr3 = [...arr1, ...arr2];
 console.log('🚀  arr3:', arr3);
 
+
+console.log(users);
+
