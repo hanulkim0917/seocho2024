@@ -23,7 +23,7 @@ let i = 1;
 console.log('x=', x);
 var x = 1;
 console.log(ff, f);
-f(); // error
+f(); // error 
 {
   f();
   var x = 2;
@@ -40,3 +40,5 @@ if (x >= 2) {
   let yy = 55;
 }
 var xx = 100;
+ff();
+
