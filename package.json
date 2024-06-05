@@ -1,6 +1,6 @@
 {
-  "name": "js",
-  "version": "0.1.0",
+  "name": "seochohanul",
+  "version": "0.1.0-beta.2",
   "description": "js study",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Hanul",
   "license": "ISC",
   "dependencies": {
-    "moment-with-locales-es6": "^1.0.1"
+    "moment-with-locales-es6": "^1.0.1",
+    "seochojade": "^0.1.0-beta.2"
   }
 }
